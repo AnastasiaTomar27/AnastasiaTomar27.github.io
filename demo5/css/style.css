@@ -129,7 +129,7 @@ a:focus {
 .navbar-brand span {
   font-size: 22px;
   font-weight: 700;
-  color: #191919;
+  color: #a05d05;
   text-transform: uppercase;
 }
 
@@ -262,7 +262,7 @@ a:focus {
   border: none;
   width: 55px;
   height: 1px;
-  background-color: #000000;
+  background-color: #a05d05;
 }
 
 .slider_section .detail_box h1 {
@@ -275,7 +275,7 @@ a:focus {
 .slider_section .detail_box a {
   display: inline-block;
   padding: 8px 40px;
-  background-color: #0d0806;
+  background-color: #a05d05;
   border: 1px solid #0d0806;
   color: #ffffff;
   border-radius: 0;
@@ -402,7 +402,7 @@ a:focus {
 .about_section .detail-box a {
   display: inline-block;
   padding: 8px 40px;
-  background-color: #0d0806;
+  background-color: #a05d05;
   border: 1px solid #0d0806;
   color: #ffffff;
   border-radius: 0;
@@ -508,7 +508,7 @@ a:focus {
 .price_section .price_btn {
   display: inline-block;
   padding: 8px 40px;
-  background-color: #0d0806;
+  background-color: #a05d05;
   border: 1px solid #0d0806;
   color: #ffffff;
   border-radius: 0;

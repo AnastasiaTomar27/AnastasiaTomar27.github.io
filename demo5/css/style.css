@@ -79,7 +79,7 @@ body {
 
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-link {
   padding: 10px 30px;
-  color: #ffffff;
+  color: #a05d05;
   text-align: center;
 }
 
@@ -166,8 +166,8 @@ a:focus {
   top: 68%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  color: #ffffff;
+  transform: translate(-50%, -50%);
+  color: #a05d05;
   font-size: 12px;
 }
 
@@ -222,7 +222,7 @@ a:focus {
   width: 1px;
   height: 50px;
   border: none;
-  background-color: #ffffff;
+  background-color: #a05d05;
 }
 
 .slider_section .slider_number-container .number-box {
@@ -262,7 +262,7 @@ a:focus {
   border: none;
   width: 55px;
   height: 1px;
-  background-color: #a05d05;
+  background-color: #07f446;
 }
 
 .slider_section .detail_box h1 {
@@ -306,7 +306,7 @@ a:focus {
   opacity: 1;
   background-color: transparent;
   border: none;
-  color: #c0c0c0;
+  color: #a05d05;
   font-size: 24px;
   display: none;
 }

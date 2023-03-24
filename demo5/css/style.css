@@ -1,6 +1,6 @@
 body {
   font-family: "Poppins", sans-serif;
-  color: #c2f00b;
+  color: #47f00b;
   background-color: #ffffff;
 }
 
@@ -275,7 +275,7 @@ a:focus {
 }
 
 .slider_section .detail_box h1 {
-  font-weight: bold;
+  font-weight: b;
   text-transform: uppercase;
   font-size: 5rem;
   margin-bottom: 30px;

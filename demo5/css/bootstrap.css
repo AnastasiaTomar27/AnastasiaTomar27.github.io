@@ -384,6 +384,9 @@ h4, .h4 {
 
 h5, .h5 {
   font-size: 1.25rem;
+  text-align: center;
+  /* position: relative; */
+  /* left: 40%; */
 }
 
 h6, .h6 {

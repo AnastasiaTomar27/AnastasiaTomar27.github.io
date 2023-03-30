@@ -50,6 +50,7 @@ html {
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
+  background-color: #12B1C1;
 }
 
 body {
@@ -551,6 +552,7 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  background-color: #12B1C1;
 }
 
 @media (min-width: 576px) {

@@ -805,12 +805,10 @@ a:focus {
 }
 
 .info_section .info_menu .navbar-nav .nav-item .nav-link {
-  color: #060606;
+  color: #ffffff;
 }
 
-.nav-link {
-  color: black;
-}
+
 
 .info_section .info_news form input {
   width: 100%;

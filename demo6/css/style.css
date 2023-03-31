@@ -6,6 +6,7 @@ body {
 
 .layout_padding {
   padding: 100px 0;
+  background-color: white;
 }
 
 .layout_padding2 {
@@ -341,6 +342,7 @@ a:focus {
 
 .slider_section .carousel-indicators {
   bottom: -75px;
+  background-color: white;
 }
 
 .slider_section .carousel-indicators li {

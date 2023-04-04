@@ -60,7 +60,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 [tabindex="-1"]:focus {
@@ -361,7 +361,6 @@ template {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  margin-left: 10rem;
   margin-bottom: 0.5rem;
   font-weight: 500;
   line-height: 1.2;
@@ -563,7 +562,6 @@ pre code {
 @media (min-width: 768px) {
   .container {
     max-width: 720px;
-    /* background-color: #fff; */
   }
 }
 

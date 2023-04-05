@@ -130,7 +130,7 @@ button:focus {
 ul,
 li,
 ol {
-     margin: 0px;
+     margin: 1px;
      padding: 0px;
      list-style: none;
 }
@@ -289,8 +289,8 @@ button {
 
 .navigation.navbar-dark .navbar-nav .nav-link {
      padding: 0 35px;
-     color: #12B1C1;
-     font-size: 17px;
+     color: #194845;
+     font-size: 20px;
      line-height: 20px;
      font-weight: 600;
 }
@@ -304,11 +304,11 @@ button {
 .navigation.navbar-dark .navbar-nav .nav-link.active,
 .navigation.navbar-dark .navbar-nav .nav-link.show,
 .navigation.navbar-dark .navbar-nav .show>.nav-link {
-     color: #194845;
+     color: #267f88;
 }
 
 .navbar-expand-md .navbar-nav {
-     padding-right: 10px;
+     padding-right: px;
 }
 
 ul.search {
@@ -349,10 +349,10 @@ ul.search li a:hover {
 }
 
 .build_box p {
-     color: #fff;
-     font-size: 17px;
+     color: #194845;
+     font-size: 25px;
      line-height: 30px;
-     font-weight: normal;
+     font-weight: bold;
      margin-bottom: 55px;
 }
 
@@ -396,13 +396,13 @@ ul.search li a:hover {
      width: 25px;
      height: 25px;
      border-radius: 30px;
-     background: #252525;
+     background: #194845;
      margin: 6px 0;
      cursor: pointer;
 }
 
 .banner .carousel-indicators .active {
-     background-color: #e6615a;
+     background-color: #12B1C1;
 }
 
 

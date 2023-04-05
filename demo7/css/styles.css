@@ -54,7 +54,7 @@ body, p {
 }
 
 .p-large {
-	font: 400 1.5rem/1.75rem "Montserrat", sans-serif;
+	font: 00 1.5rem/1.75rem "Montserrat", sans-serif;
 }
 
 .p-small {
@@ -67,7 +67,7 @@ body, p {
 
 h1 {
 	color: #333;
-	font: 700 2.75rem/3.375rem "Montserrat", sans-serif;
+	font: 500 2.75rem/3.375rem "Montserrat", sans-serif;
 }
 
 h2 {
@@ -1701,8 +1701,8 @@ a:hover.back-to-top {
 	}
 
 	.header h1 {
-		font-size: 1.2rem;
-		line-height: 4.875rem;
+		font-size: 1.5rem;
+		line-height: 1.875rem;
 		letter-spacing: -0.3px;
 	}
 

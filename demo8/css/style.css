@@ -328,6 +328,7 @@ ul.search li a:hover {
 
 .full_bg {
      background: url(../images/pohja1.png);
+     opacity: 0.4;
      background-size: 100% 100%;
      background-position: center;
      background-repeat: no-repeat;

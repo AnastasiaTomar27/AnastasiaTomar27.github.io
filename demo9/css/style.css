@@ -45,6 +45,7 @@ body {
      font-family:Poppins;
      line-height: 1.80857;
      font-weight: normal;
+     background-color: #def8fb;
      overflow-x: hidden;
 }
 
@@ -515,7 +516,7 @@ button {
     width: 100%;
     float: left;
     font-size: 16px;
-    color: #090808;
+    color: #05adb9;
     text-align: center;
     margin-left: 0px;
     margin-top: 10px;
@@ -579,7 +580,7 @@ a:hover {
     width: 100%;
     float: left;
     font-size: 18px;
-    color: #fabb25;
+    color: #05adb9;
     text-transform: uppercase;
     font-weight: bold;
     padding-top: 35px;

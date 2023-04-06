@@ -667,7 +667,7 @@ a:hover {
 
 .image {
   opacity: 1;
-  display: contents;
+  display: block;
   width: 70%;
   height: auto;
   transition: .5s ease;

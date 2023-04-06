@@ -161,7 +161,7 @@ a,
 }
 
 img {
-     max-width: 60%;
+     max-width: 90%;
      height: auto;
 }
 
@@ -514,7 +514,7 @@ ul.search li a:hover {
 }
 
 .plan_bax figure img {
-     width: 100%;
+     width: 400px;
      border: #95d9d7 solid 25px;
 }
 

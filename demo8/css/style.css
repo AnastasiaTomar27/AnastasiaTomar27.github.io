@@ -290,7 +290,7 @@ button {
 
 .navigation.navbar-dark .navbar-nav .nav-link {
      padding: 0 35px;
-     color: #194845;
+     color: #0a424b;
      font-size: 20px;
      line-height: 20px;
      font-weight: 600;
@@ -305,7 +305,7 @@ button {
 .navigation.navbar-dark .navbar-nav .nav-link.active,
 .navigation.navbar-dark .navbar-nav .nav-link.show,
 .navigation.navbar-dark .navbar-nav .show>.nav-link {
-     color: #267f88;
+     color: #0eabb8;
 }
 
 .navbar-expand-md .navbar-nav {
@@ -350,7 +350,7 @@ ul.search li a:hover {
 }
 
 .build_box p {
-     color: #194845;
+     color: #0a424b;
      font-size: 25px;
      line-height: 30px;
      font-weight: bold;
@@ -360,7 +360,7 @@ ul.search li a:hover {
 .build_box h1 {
      font-size: 80px;
      font-weight: bold;
-     color: #194845;
+     color: #0a424b;
      line-height: 95px;
      padding-bottom: 20px;
      display: block;
@@ -416,7 +416,7 @@ ul.search li a:hover {
 
 .titlepage h2 {
      font-size: 40px;
-     color: #252525;
+     color: #0a424b;
      line-height: 40px;
      font-weight: bold;
      padding-top: 8px !important;
@@ -437,7 +437,7 @@ ul.search li a:hover {
 .titlepage span {
      font-size: 17px;
      line-height: 25px;
-     color: #191919;
+     color: #0a424b;
      padding-top: 13px;
      display: block;
 }
@@ -515,11 +515,11 @@ ul.search li a:hover {
 
 .plan_bax figure img {
      width: 100%;
-     border: #fff solid 25px;
+     border: #95d9d7 solid 25px;
 }
 
 .plan_text {
-     background-color: #f8d98f;
+     background-color: #0eabb8;
      cursor: pointer;
      padding: 49px 40px;
 }

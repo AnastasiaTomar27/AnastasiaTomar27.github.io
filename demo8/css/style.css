@@ -423,7 +423,7 @@ ul.search li a:hover {
      padding: 0;
 }
 
-.titlepage h2::before {
+/* .titlepage h2::before {
      position: relative;
      content: "";
      background: url(../images/ring.png);
@@ -432,7 +432,7 @@ ul.search li a:hover {
      top: -8px;
      margin: 0 auto;
      display: block;
-}
+} */
 
 .titlepage span {
      font-size: 17px;

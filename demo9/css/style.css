@@ -601,13 +601,12 @@ a:hover {
     height: auto;
     padding-bottom: 55px;
     background-size: 100%;
-    opacity: 0.5;
 }
 .who_taital{
     width: 100%;
     float: left;
     font-size: 36px;
-    color: rgba(0,0,0,.9);
+    color: #fff;
     text-align: center;
     text-transform: uppercase;
     font-weight: 500;
@@ -616,7 +615,7 @@ a:hover {
     width: 100%;
     float: left;
     font-size: 18px;
-    color: #000;
+    color: #fff;
     text-align: center;
     text-transform: uppercase;
 }
@@ -624,7 +623,7 @@ a:hover {
     width: 100%;
     float: left;
     font-size: 16px;
-    color: #000;
+    color: #fff;
     text-align: center;
     margin-left: 0px;
 }

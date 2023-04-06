@@ -165,6 +165,10 @@ img {
      height: auto;
 }
 
+.logo {
+     width: 60px;
+}
+
 .etusivu {
      
      margin-left: 10px;

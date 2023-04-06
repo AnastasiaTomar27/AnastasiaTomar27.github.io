@@ -161,12 +161,12 @@ a,
 }
 
 img {
-     max-width: 100%;
+     max-width: 400%;
      height: auto;
 }
 
-.img2 {
-     max-width: 60%;
+.etusivu {
+     margin-left: 40px;
 }
 
  :focus {

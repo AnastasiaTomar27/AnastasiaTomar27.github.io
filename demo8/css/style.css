@@ -161,7 +161,7 @@ a,
 }
 
 img {
-     max-width: 90%;
+     max-width: 100%;
      height: auto;
 }
 
@@ -305,7 +305,7 @@ button {
 .navigation.navbar-dark .navbar-nav .nav-link.active,
 .navigation.navbar-dark .navbar-nav .nav-link.show,
 .navigation.navbar-dark .navbar-nav .show>.nav-link {
-     color: #0eabb8;
+     color: #0a424b;
 }
 
 .navbar-expand-md .navbar-nav {
@@ -519,14 +519,14 @@ ul.search li a:hover {
 }
 
 .plan_text {
-     background-color: #0eabb8;
+     background-color: #ffffff;
      cursor: pointer;
-     padding: 4px 4px;
+     padding: px px;
 }
 
 .plan_text h3 {
-     color: #252525;
-     font-weight: bold;
+     color: #0a424b;
+     font-weight: normal;
      font-size: 20px;
      line-height: 22px;
      padding-bottom: 10px;
@@ -569,7 +569,7 @@ ul.search li a:hover {
 /* our plane */
 
 .groomsmen {
-     background: #fff;
+     background: #95d9d769;
      padding-top: 60px;
      padding-bottom: 130px;
      position: relative;
@@ -603,7 +603,7 @@ ul.search li a:hover {
 }
 
 .brid h3 {
-     color: #252525;
+     color: #0a424b;
      font-weight: 400;
      font-size: 24px;
      line-height: 31px;

@@ -468,7 +468,7 @@ button {
     width: 100%;
     float: left;
     font-size: 40px;
-    color: #ffffff;
+    color: #000;
     text-transform: uppercase;
     font-weight: 500;
 }
@@ -476,7 +476,7 @@ button {
     width: 100%;
     float: left;
     font-size: 16px;
-    color: #ffffff;
+    color: #000;
     margin-left: 0px;
     padding-top: 40px;
 }
@@ -509,7 +509,7 @@ button {
     width: 100%;
     float: left;
     font-size: 36px;
-    color: #fff;
+    color: #000;
     text-transform: uppercase;
     text-align: center;
 }
@@ -517,7 +517,7 @@ button {
     width: 100%;
     float: left;
     font-size: 16px;
-    color: #fff;
+    color: #000;
     text-align: center;
     margin-left: 0px;
     margin-top: 10px;

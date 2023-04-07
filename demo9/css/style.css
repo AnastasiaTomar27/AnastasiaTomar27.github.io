@@ -455,7 +455,7 @@ button {
 .about_section{
     width: 100%;
     float: left;
-    background-image: url(../images/bg2.jpg);
+    
     height: auto;
     padding-bottom: 90px;
 }
@@ -655,6 +655,7 @@ a:hover {
 .projects_section{
     width: 100%;
     float: left;
+    background-image: url(../images/bg2.jpg);
 }
 .projects_section2{
     width: 100%;

@@ -40,8 +40,8 @@ html {
 }
 
 body {
-     color: #666666;
-     font-size: 14px;
+     color: #000;
+     font-size: 50px;
      font-family:Poppins;
      line-height: 1.80857;
      font-weight: normal;
@@ -310,7 +310,7 @@ button {
 .furniture_text{
     width: 100%;
     float: left;
-    font-size: 70px;
+    font-size: 50px;
     color: #090808;
     text-align: center;
     text-transform: uppercase;
@@ -318,7 +318,7 @@ button {
 .there_text {
     width: 50%;
     margin: 0 auto;
-    font-size: 16px;
+    font-size: 18px;
     color: #05adb9;
     text-align: center;
 }

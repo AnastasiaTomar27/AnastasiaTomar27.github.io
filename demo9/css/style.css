@@ -557,7 +557,7 @@ a:hover {
     width: 42%;
     opacity: 0;
     transition: .3s ease;
-    background-color: #fabc26;
+    background-color: #05adb9;
     margin: 0 auto;
     border-radius: 100px;
     top: 55px;
@@ -675,7 +675,6 @@ a:hover {
 .image {
   opacity: 1;
   display: block;
-  width: 70%;
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;

@@ -261,6 +261,7 @@ a:focus {
   align-items: center;
   padding-bottom: 75px;
   background-color: #12B1C1;
+  display: flex;
 }
 
 .slider_section .img-box img {
@@ -270,6 +271,7 @@ a:focus {
 
 .slider_section .detail-box h1 {
   color: #2c2c2c;
+  align-self: center;
 }
 
 .slider_section .detail-box h1 span {

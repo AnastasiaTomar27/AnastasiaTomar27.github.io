@@ -320,8 +320,9 @@ button {
     text-transform: uppercase;
 }
 .there_text {
+
     width: 50%;
-    margin: 0 auto;
+    margin: 30 auto;
     font-size: 18px;
     color: #05adb9;
     text-align: center;

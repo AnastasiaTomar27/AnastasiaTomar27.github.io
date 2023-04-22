@@ -279,4 +279,9 @@ footer {
     color: #fff;
 }
 
+.container_main {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+  }
 

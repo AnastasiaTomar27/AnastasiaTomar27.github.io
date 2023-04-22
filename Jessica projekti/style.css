@@ -250,9 +250,33 @@ footer {
     margin-top: 30px;
 }
 
-.carousel {
-    width: 100vw
-    height: 100vh;
-    position: relative;
+#costum_slider a.carousel-control-prev {
+    position: absolute;
+    left: -153px;
+    top: 57%;
+    background-color: #000;
+    color: #ffffff;
+    border-radius: 100px;
 }
+
+
+#costum_slider a.carousel-control-next {
+    position: absolute;
+    right: -150px;
+    top: 57%;
+}
+#costum_slider .carousel-control-prev, #costum_slider .carousel-control-next {
+    width: 85px;
+    height: 85px;
+    background: #000;
+    opacity: 1;
+    font-size: 30px;
+    color: #fff;
+    border-radius: 100px;
+}
+#costum_slider .carousel-control-prev:hover, #costum_slider .carousel-control-next:hover, #costum_slider .carousel-control-prev:focus, #costum_slider .carousel-control-next:focus {
+    background: #f8ca12;
+    color: #fff;
+}
+
 

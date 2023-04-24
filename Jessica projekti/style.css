@@ -249,7 +249,7 @@ footer {
     width: 50%;
     margin-top: 30px;
 }
-
+/* 
 .slideshow-container {
     max-width: 100px;
     position:relative;
@@ -311,4 +311,4 @@ footer {
 @-webkit-keyframes fade{
     from{opacity: .4;}
     to{opacity: 1;}
-}
+} */

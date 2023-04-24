@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Yessies</title>
+        <title>Carousel</title>
         <link class="picture" rel="icon" href="pictures/icon.png">
         <link rel="stylesheet" href="style.css">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
@@ -9,34 +9,18 @@
         
     </head>
     <body>
- <div class="slideshow-container">
-        <div class="mySlides fade">
-            <div class="numbertext">1/3</div>
-            <img src="pictures/Kuva1.jpg" style="width: 100%" alt="tuoten kuva">
-            <div class="text">Text</div>
+        <div class="carousel">
+           <ul class="">
+                <li>
+                    <img src="pictures/Kuva1.jpg" alt="tuoten kuva 1">
+                </li>
+                <li>
+                    <img src="pictures/Kuva2.jpg" alt="tuoten kuva 1">
+                </li>
+                <li>
+                    <img src="pictures/Kuva3.jpg" alt="tuoten kuva 1">
+                </li>
+           </ul> 
         </div>
-
-        <div class="mySlides fade">
-                <div class="numbertext">2/3</div>
-                <img src="pictures/Kuva2.jpg" style="width: 100%" alt="tuoten kuva">
-                <div class="text">Text</div>
-        </div>
-
-        <div class="mySlides fade">
-                    <div class="numbertext">3/3</div>
-                    <img src="pictures/Kuva5.jpg" style="width: 100%" alt="tuoten kuva">
-                    <div class="text">Text</div>
-        </div>
-        <a  class="prev" onclick="plusSlides(-1)">&#10094</a>
-        <a  class="next" onclick="plusSlides(1)">&#10095</a>
-        </div>
-        <br>
-
-        <div style="text-align: center;">
-            <span class="dot" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
-        </div>
-    </div> 
     <script src="javascript.js"></script>
 </body> 

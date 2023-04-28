@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+
+    <script type="text/javascript">
+        var left= 1;
+        var right= 5;
+
+        function show() {
+            for(i=left; i<=right; i++) {
+            document.getElementById("c"+i).style.display="inline-block";
+            }
+        }
+
+        function moveLeft() {
+            
+            
+                if(left<=3 && right<=7) {
+                document.getElementById("c"+left).style.display="none";
+                left+=1;
+                right+=1;
+
+                for(i=left; i<=right; i++) {
+                
+                    document.getElementById("c"+i).style.display="inline-block";
+                }
+            } else
+                return;
+        }
+
+        function moveRight() {
+            if(left>=2 && right>=6)
+            {
+                document.getElementById("c"+right).style.display="none";
+                left-=1;
+                right-=1;
+
+                for(i=left; i<=right; i++) {
+                document.getElementById("c"+i).style.display="inline-block";
+                }
+            } else
+                return;
+        }
+    </script>
+
+    <style type="text/css">
+        .parent {
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           height: 400px;
+        }
+        .child {
+           width: 20%;
+           margin-left: 10px;
+           margin-right: 10px;
+           display: none;
+        }
+        .child img {
+            height: 200px;
+            width: 100%;
+        }
+        #leftarrow, #rightarrow{
+            margin-left:  12px;
+            width: 3%;
+            display: inline-block;
+        }
+        #leftarrow button, #rightarrow button {
+            font-weight: bold;
+            cursor: pointer;
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body onload="show()">
+    <div class="parent">
+        <div id="leftarrow" onclick="moveLeft()">
+            <button>&lt</button>
+        </div>
+        <div class="child" id="c1">
+            <img src="pictures/Kuva1.png"/>
+        </div>
+        <div class="child" id="c2">
+            <img src="pictures/Kuva2.png"/>
+        </div>
+        <div class="child" id="c3">
+            <img src="pictures/Kuva3.png"/>
+        </div>
+        <div class="child" id="c4">
+            <img src="pictures/Kuva4.png"/>
+        </div>
+        <div class="child" id="c5">
+            <img src="pictures/Kuva5.jpg"/>
+        </div>
+        <div class="child" id="c6">
+            <img src="pictures/Kuva6.jpg"/>
+        </div>
+        <div class="child" id="c7">
+            <img src="pictures/Kuva7.jpg"/>
+        </div>
+        <div class="child" id="c8">
+            <img src="pictures/Kuva8.jpg"/>
+        </div>
+        <div id="rightarrow" onclick="moveRight()">
+            <button>&gt</button>
+        </div>
+
+    </div>
+</body>
+</html>

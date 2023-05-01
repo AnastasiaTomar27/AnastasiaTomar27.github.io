@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+body {
+    background-color: blue;
+}
+
+.container {
+    max-width: 950px;
+    margin: 100px auto 50px;
+    padding: 100px 0;
+    background-color:blueviolet;
+}

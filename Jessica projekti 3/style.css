@@ -12,8 +12,7 @@ body {
     font-family: Roboto, Arial;
     display: grid;
     grid-template-columns: 1fr;
-    color: rgb(60, 60, 60);
-    
+    color: #000;
 }
 
 .alku {
@@ -191,7 +190,7 @@ svg:hover{
 }
 
 button {
-    background-color: rgb(19, 204, 204);
+    background-color: rgb(19 204 204);
     color: white;
     height: 30px;
     border-radius: 10px;
@@ -246,3 +245,16 @@ footer {
     margin-top: 30px;
 }
 
+button.owl-next {
+    font-weight: 900;
+}
+/* .owl-theme .owl-dots .owl-dot  .owl-dot active {
+    background-color: blue;
+} */
+
+.owl-dots, .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot   {
+    
+color: rgb(19 204 204);
+    
+font-size: xxx-large;
+}

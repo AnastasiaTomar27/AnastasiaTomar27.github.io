@@ -13,7 +13,9 @@ body{
 }
 
 .container{
-    display:flex;
+    /* flex means all pictures arranged in a row */
+    display:flex; 
+    /* it takes now only 90% width of the page */
     width:90vw;
 }
 
@@ -23,37 +25,38 @@ body{
     background-repeat: no-repeat;
     height:80vh;
     border-radius: 50px;
-    flex:0.5;
+    flex:0.5; /*the ability of a flexible element to expand or contract to fill available free space*/
     position:relative;
-    transition: flex 0.5s ease-in;
+    transition: flex 0.5s ease-in; /* 0.5s means that pictures changes in time of 0.5 sec*/
     color:#fff;
     cursor:pointer;
-    margin:10px;
+    margin:10px; /*gives space between pics*/
 }
 
 .panel h3{
+    /*text goes down*/
     position:absolute;
     bottom:20px;
     left:20px;
-    opacity:0;
+    opacity:0; /*text is invisible when cards are not active*/
     font-size: smaller;
 }
 
 .panel.active{
-    flex:5;
+    flex:5; /*Actice panel/pic is bigger than others*/
 }
 
 .panel.active h3{
-    opacity:1;
-     transition: opacity 0.4s ease-in 0.4s;
+    opacity:1; /*text of the active panel is shown*/
+     transition: opacity 0.4s ease-in 0.4s; /*opacity - text's opacity, ease-in 0.4s means that text is shown after 0.4 sec*/
 }
 
 @media(max-width:480px){
     .container{
-        width:100vw;
+        width:100vw; /*when the screen is equal or smaller than 480px the width of the screen is 100%*/
     }
 
     .panel:nth-of-type(4),.panel:nth-of-type(5){
-        display:none;
+        display:none; /*when the screen is equal or smaller than 480px panels nomber 4 and 5 are not shown*/
     }
 }
